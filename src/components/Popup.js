@@ -50,7 +50,7 @@ const Popup = () => {
     visible: {
       opacity: 1,
       x: "78vw",
-      y: "-25vh",
+      y: "-28vh",
     },
   };
 
@@ -75,17 +75,21 @@ const Popup = () => {
         <FontAwesomeIcon icon={faX} className="iconX" onClick={popupOff} />
         <h2>Contactez moi</h2>
         <form ref={form} onSubmit={sendEmail} className="form-content">
-          <label>Email</label>
-          <input
-            type="email"
-            name="email"
-            required
-            autoComplete="off"
-            id="email"
-          />
-          <label>Message</label>
-          <textarea name="message" id="mess" />
-          <input type="submit" value="Envoyer" />
+          <div>
+            <label>Email</label>
+            <input
+              type="email"
+              name="email"
+              required
+              autoComplete="off"
+              id="email"
+            />
+          </div>
+          <div>
+            <label>Message</label>
+            <textarea name="message" id="mess" />
+          </div>
+          <input type="submit" value="Envoyer" id="button" />
         </form>
         <div className="formMessage"></div>
       </div>
