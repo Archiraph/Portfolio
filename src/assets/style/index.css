@@ -176,11 +176,6 @@ body {
   cursor: pointer;
 }
 
-.popupOff {
-  display: none;
-  background-color: aqua;
-}
-
 #notFound {
   text-decoration: none;
   background-color: #ebebeb;
