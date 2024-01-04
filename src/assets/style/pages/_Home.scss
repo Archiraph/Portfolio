@@ -1,0 +1,104 @@
+#home{
+ 
+    overflow: hidden;
+    height: 100vh;
+
+        #content-home{
+            margin: auto;
+            height: 50vh;
+            width: 60vw;
+            position: relative;
+            color: $white;
+            
+            h3{
+                font-family: $font-text;
+                background-color: $lightblue;
+                position: absolute;
+                padding: 3%;
+                padding-right: 6%;
+                max-width: 35vw;
+                font-size: 3vh;
+                border-radius: 20% 85% 15% 80% / 76% 24% 90% 10%;
+                @include childCenter;
+                letter-spacing: 2px;
+            }
+            
+            h2{
+                font-family: $font-title;
+                background-color: $blue;
+                position: absolute;
+                padding: 2.5%;
+                @include childCenter;
+                z-index: 2;
+                font-size: 2.5vh;
+                max-height: 8vh;
+                border-radius: 10px;
+            }
+
+            #first-text{
+                padding: 3%;
+                font-family: $font-text;
+                background-color: $lightblue;
+                position: absolute;
+                max-width: 23vw;
+                max-height: 25vh; 
+                font-size: 1.6vh;
+                z-index: 0;
+                border-radius: 10px;
+            }
+            #second-text{
+                padding: 3%;
+                font-family: $font-text;
+                background-color: $blue;
+                position: absolute;
+                max-width: 23vw;
+                max-height: 35vh;
+                font-size: 1.6vh;
+                border-radius: 10px;
+            }
+
+            .circle1{
+                position: absolute;
+                border: 5px solid $blue2;
+                height: 500px;
+                width: 500px;
+                border-radius: 300%;
+                top: 70%;
+                left: -20%;
+                z-index: -1;
+            }
+
+            .circle2{
+                position: absolute;
+                background-color: $blue2;
+                height: 300px;
+                width: 300px;
+                border-radius: 300%;
+                top: -10%;
+                left: 82%;
+                z-index: -1;
+            }
+
+            .circle3{
+                position: absolute;
+                background-color: $lightblue2;
+                height: 200px;
+                width: 200px;
+                border-radius: 300%;
+                top: 10%;
+                left: -43%;
+                z-index: -1;
+            }
+
+            .circle4{
+                position: absolute;
+                border: 5px solid $lightblue2;
+                height: 1000px;
+                width: 1000px;
+                border-radius: 300%;
+                top: 70%;
+                left: 100%;
+                z-index: -1;
+            }
+        }
+}
