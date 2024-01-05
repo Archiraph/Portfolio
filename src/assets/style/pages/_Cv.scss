@@ -1,3 +1,63 @@
-#Cv{
+
+#cv-container{
+
     height: 100vh;
+    
+    #Cv{
+
+        .circle1{
+            position: absolute;
+            border: 5px solid $blue2;
+            height: 500px;
+            width: 500px;
+            border-radius: 300%;
+            top: 0%;
+            left: 85%;
+            z-index: -1;
+        }
+
+        .circle2{
+            position: absolute;
+            background-color: $blue2;
+            height: 300px;
+            width: 300px;
+            border-radius: 300%;
+            top: 55%;
+            left: 5%;
+            z-index: -1;
+        }
+
+        .circle3{
+            position: absolute;
+            background-color: $lightblue2;
+            height: 200px;
+            width: 200px;
+            border-radius: 300%;
+            top: 90%;
+            left: 43%;
+            z-index: -1;
+        }
+
+        .circle4{
+            position: absolute;
+            border: 5px solid $lightblue2;
+            height: 700px;
+            width: 700px;
+            border-radius: 300%;
+            top: 0%;
+            left: 30%;
+            z-index: -1;
+        }  
+    }
+        .image{
+            background-image: url("../img/cv.jpg");
+            height: 96vh;
+            width: 35vw;
+            background-repeat: no-repeat;
+            background-size: cover;
+            box-shadow: 0 0 2em black;
+            margin: auto;
+            margin-top: 40px;
+            
+        }
 }

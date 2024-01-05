@@ -15,7 +15,8 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 #navigation {
@@ -153,6 +154,7 @@ body {
           box-shadow: 0 0 1em black;
   background-color: rgb(11, 155, 212);
   color: #ebebeb;
+  position: fixed;
 }
 #popup h2 {
   font-family: "font-title", sans-serif;
@@ -182,7 +184,7 @@ body {
 }
 #popup form div #email {
   margin: auto;
-  max-height: 2vh;
+  height: 2vh;
   max-width: 8vw;
   margin-left: 10px;
 }
@@ -284,7 +286,7 @@ body {
   padding-right: 6%;
   max-width: 35vw;
   font-size: 3vh;
-  border-radius: 20% 85% 15% 80%/76% 24% 90% 10%;
+  border-radius: 76% 24% 90% 10%/20% 85% 15% 80%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -385,6 +387,57 @@ body {
   z-index: -1;
 }
 
-#Cv {
+#cv-container {
   height: 100vh;
+}
+#cv-container #Cv .circle1 {
+  position: absolute;
+  border: 5px solid rgba(0, 47, 74, 0.368627451);
+  height: 500px;
+  width: 500px;
+  border-radius: 300%;
+  top: 0%;
+  left: 85%;
+  z-index: -1;
+}
+#cv-container #Cv .circle2 {
+  position: absolute;
+  background-color: rgba(0, 47, 74, 0.368627451);
+  height: 300px;
+  width: 300px;
+  border-radius: 300%;
+  top: 55%;
+  left: 5%;
+  z-index: -1;
+}
+#cv-container #Cv .circle3 {
+  position: absolute;
+  background-color: rgba(11, 155, 212, 0.438);
+  height: 200px;
+  width: 200px;
+  border-radius: 300%;
+  top: 90%;
+  left: 43%;
+  z-index: -1;
+}
+#cv-container #Cv .circle4 {
+  position: absolute;
+  border: 5px solid rgba(11, 155, 212, 0.438);
+  height: 700px;
+  width: 700px;
+  border-radius: 300%;
+  top: 0%;
+  left: 30%;
+  z-index: -1;
+}
+#cv-container .image {
+  background-image: url("../img/cv.jpg");
+  height: 96vh;
+  width: 35vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: 0 0 2em black;
+          box-shadow: 0 0 2em black;
+  margin: auto;
+  margin-top: 40px;
 }/*# sourceMappingURL=index.css.map */

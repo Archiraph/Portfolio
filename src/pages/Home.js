@@ -132,7 +132,7 @@ const Home = () => {
             et de m’intéresser particulièrement sur les langages les plus
             demandés du marché. J’ai, de ce fait, entrepris une nouvelle
             formation, en ligne cette fois, FromScratch. Par ce biais, j’ai pu
-            developper mes connaissances à propos de Javascript, Redux, SASS,
+            développer mes connaissances à propos de Javascript, Redux, SASS,
             NodeJS ainsi que d'autres bibliothèques tournant autour du
             Javascript. <br />
             <br />
