@@ -1,7 +1,8 @@
-
-#cv-container{
+#cv-global{
+    #cv-container{
 
     height: 100vh;
+    margin-bottom: 300px;
     
     #Cv{
 
@@ -49,7 +50,10 @@
             z-index: -1;
         }  
     }
-        .image{
+        
+
+}
+.image{
             background-image: url("../img/cv.jpg");
             height: 96vh;
             width: 35vw;
@@ -57,7 +61,7 @@
             background-size: cover;
             box-shadow: 0 0 2em black;
             margin: auto;
-            margin-top: 40px;
-            
-        }
-}
+            position: absolute;
+            top: 30vh;
+            left: 33vw;
+        }}

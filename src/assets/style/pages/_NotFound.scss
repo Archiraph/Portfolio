@@ -1,7 +1,6 @@
 #notFound{
     text-decoration: none;
     background-color: $white;
-    color: $blue;
     @include childCenter;
     flex-direction: column;
     height: 100vh;
@@ -9,6 +8,7 @@
     h1{
         font-size: 5vh;
         margin: 30px;
+        color: $blue;
     }
 
     h3{

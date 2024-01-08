@@ -1,0 +1,132 @@
+.project{
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+    
+    .project-container{
+        height: 50vh;
+        width: 30vw;
+        margin: auto;
+        margin-top: 15vh;
+        z-index: 0;
+        border-radius: 20px;
+        box-shadow: 0 0 1em black;
+        
+        .circle1{
+        position: absolute;
+        border: 5px solid $blue2;
+        height: 500px;
+        width: 500px;
+        border-radius: 300%;
+        top: 10%;
+        left: 50%;
+        z-index: -1;
+        }
+
+        .circle2{
+            position: absolute;
+            background-color: $blue2;
+            height: 300px;
+            width: 300px;
+            border-radius: 300%;
+            top: 70%;
+            left: 89%;
+            z-index: -1;
+        }
+
+        .circle3{
+            position: absolute;
+            background-color: $lightblue2;
+            height: 200px;
+            width: 200px;
+            border-radius: 300%;
+            top: 10%;
+            left: 3%;
+            z-index: -1;
+        }
+
+        .project-title{
+            background-color: $lightblue;
+            height: 5vh;
+            width: 20vw;
+            position: absolute;
+            top: 32%;
+            left: 40%;
+            border-radius: 20px;
+            box-shadow: 0 0 1em black;
+            overflow: hidden;
+
+            .title-cache{
+                height: 5vh;
+                width: 10vw;
+                background-color: $blue;
+                position: absolute;
+                z-index: 5;
+                box-shadow: 0 0 3em black;
+            }
+
+            h1{
+                @include childCenter;
+                font-family: $font-title;
+                margin-top: 5px;
+                font-size: 3vh;
+            }
+        }
+
+        .project-languages{
+            background-color: $lightblue;
+            height: 30vh;
+            width: 15vw;
+            position: absolute;
+            border-radius: 20px;
+            box-shadow: 0 0 1em black;
+            @include childCenter;
+            flex-direction: column;
+
+            h2{
+                font-family: $font-title;
+                margin-bottom: 2vh;
+                font-size: 4vh;
+            }
+
+            ul{
+                li{
+                    font-family: $font-text;
+                    margin: 8px;
+                    font-size: 3vh;
+                }
+            }
+        }
+
+        .project-description{
+            @include childCenter;
+            flex-direction: column;
+            background-color: $blue;
+            height: 40vh;
+            width: 17vw;
+            position: absolute;
+            border-radius: 20px;
+            box-shadow: 0 0 1em black;
+
+            h2{
+                font-family: $font-title;
+                margin-bottom: 2vh;
+                font-size: 4vh;
+            }
+
+            p{
+                font-family: $font-text;
+                margin: 8px;
+                margin-left: 12px;
+                font-size: 2vh;
+            }
+        }
+    }
+
+    #project1-pic{
+        background-image: url("../img/Projet1.JPG");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

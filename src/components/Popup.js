@@ -73,7 +73,7 @@ const Popup = () => {
     >
       <div>
         <FontAwesomeIcon icon={faX} className="iconX" onClick={popupOff} />
-        <h2>Contactez moi</h2>
+        <h2>Contactez-moi</h2>
         <form ref={form} onSubmit={sendEmail} className="form-content">
           <div>
             <label>Email</label>

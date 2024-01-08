@@ -17,6 +17,7 @@
 body {
   overflow-x: hidden;
   min-height: 100vh;
+  color: #ebebeb;
 }
 
 #navigation {
@@ -153,8 +154,8 @@ body {
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
   background-color: rgb(11, 155, 212);
-  color: #ebebeb;
   position: fixed;
+  top: 100%;
 }
 #popup h2 {
   font-family: "font-title", sans-serif;
@@ -240,10 +241,161 @@ body {
           box-shadow: 0 0 1em black;
 }
 
+.project {
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+.project .project-container {
+  height: 50vh;
+  width: 30vw;
+  margin: auto;
+  margin-top: 15vh;
+  z-index: 0;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+}
+.project .project-container .circle1 {
+  position: absolute;
+  border: 5px solid rgba(0, 47, 74, 0.368627451);
+  height: 500px;
+  width: 500px;
+  border-radius: 300%;
+  top: 10%;
+  left: 50%;
+  z-index: -1;
+}
+.project .project-container .circle2 {
+  position: absolute;
+  background-color: rgba(0, 47, 74, 0.368627451);
+  height: 300px;
+  width: 300px;
+  border-radius: 300%;
+  top: 70%;
+  left: 89%;
+  z-index: -1;
+}
+.project .project-container .circle3 {
+  position: absolute;
+  background-color: rgba(11, 155, 212, 0.438);
+  height: 200px;
+  width: 200px;
+  border-radius: 300%;
+  top: 10%;
+  left: 3%;
+  z-index: -1;
+}
+.project .project-container .project-title {
+  background-color: rgb(11, 155, 212);
+  height: 5vh;
+  width: 20vw;
+  position: absolute;
+  top: 32%;
+  left: 40%;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+  overflow: hidden;
+}
+.project .project-container .project-title .title-cache {
+  height: 5vh;
+  width: 10vw;
+  background-color: #002f4a;
+  position: absolute;
+  z-index: 5;
+  -webkit-box-shadow: 0 0 3em black;
+          box-shadow: 0 0 3em black;
+}
+.project .project-container .project-title h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "font-title", sans-serif;
+  margin-top: 5px;
+  font-size: 3vh;
+}
+.project .project-container .project-languages {
+  background-color: rgb(11, 155, 212);
+  height: 30vh;
+  width: 15vw;
+  position: absolute;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.project .project-container .project-languages h2 {
+  font-family: "font-title", sans-serif;
+  margin-bottom: 2vh;
+  font-size: 4vh;
+}
+.project .project-container .project-languages ul li {
+  font-family: "font-text", sans-serif;
+  margin: 8px;
+  font-size: 3vh;
+}
+.project .project-container .project-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #002f4a;
+  height: 40vh;
+  width: 17vw;
+  position: absolute;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+}
+.project .project-container .project-description h2 {
+  font-family: "font-title", sans-serif;
+  margin-bottom: 2vh;
+  font-size: 4vh;
+}
+.project .project-container .project-description p {
+  font-family: "font-text", sans-serif;
+  margin: 8px;
+  margin-left: 12px;
+  font-size: 2vh;
+}
+.project #project1-pic {
+  background-image: url("../img/Projet1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #notFound {
   text-decoration: none;
   background-color: #ebebeb;
-  color: #002f4a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -262,6 +414,7 @@ body {
 #notFound h1 {
   font-size: 5vh;
   margin: 30px;
+  color: #002f4a;
 }
 #notFound h3 {
   color: #002f4a;
@@ -276,7 +429,6 @@ body {
   height: 50vh;
   width: 60vw;
   position: relative;
-  color: #ebebeb;
 }
 #home #content-home h3 {
   font-family: "font-text", sans-serif;
@@ -387,10 +539,11 @@ body {
   z-index: -1;
 }
 
-#cv-container {
+#cv-global #cv-container {
   height: 100vh;
+  margin-bottom: 300px;
 }
-#cv-container #Cv .circle1 {
+#cv-global #cv-container #Cv .circle1 {
   position: absolute;
   border: 5px solid rgba(0, 47, 74, 0.368627451);
   height: 500px;
@@ -400,7 +553,7 @@ body {
   left: 85%;
   z-index: -1;
 }
-#cv-container #Cv .circle2 {
+#cv-global #cv-container #Cv .circle2 {
   position: absolute;
   background-color: rgba(0, 47, 74, 0.368627451);
   height: 300px;
@@ -410,7 +563,7 @@ body {
   left: 5%;
   z-index: -1;
 }
-#cv-container #Cv .circle3 {
+#cv-global #cv-container #Cv .circle3 {
   position: absolute;
   background-color: rgba(11, 155, 212, 0.438);
   height: 200px;
@@ -420,7 +573,7 @@ body {
   left: 43%;
   z-index: -1;
 }
-#cv-container #Cv .circle4 {
+#cv-global #cv-container #Cv .circle4 {
   position: absolute;
   border: 5px solid rgba(11, 155, 212, 0.438);
   height: 700px;
@@ -430,7 +583,7 @@ body {
   left: 30%;
   z-index: -1;
 }
-#cv-container .image {
+#cv-global .image {
   background-image: url("../img/cv.jpg");
   height: 96vh;
   width: 35vw;
@@ -439,5 +592,7 @@ body {
   -webkit-box-shadow: 0 0 2em black;
           box-shadow: 0 0 2em black;
   margin: auto;
-  margin-top: 40px;
+  position: absolute;
+  top: 30vh;
+  left: 33vw;
 }/*# sourceMappingURL=index.css.map */
