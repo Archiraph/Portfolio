@@ -40,7 +40,7 @@ const Nav = () => {
           <li>Contact</li>
         </NavLink>
       </ul>
-      <div id="logo">LOGO</div>
+      <div id="logo-container"></div>
       <ul id="reseauxNav">
         <li>
           <FontAwesomeIcon icon={faLinkedin} onClick={linkedIn} />

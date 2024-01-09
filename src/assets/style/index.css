@@ -20,6 +20,10 @@ body {
   color: #ebebeb;
 }
 
+.navlink:visited {
+  color: #ebebeb;
+}
+
 #navigation {
   width: 100vw;
   height: 20vh;
@@ -59,9 +63,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-#navigation #navbar .navlink:visited {
-  color: #ebebeb;
-}
 #navigation #navbar .navlink:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -88,7 +89,7 @@ body {
 #navigation #navbar .navlink:hover::after {
   width: 68%;
 }
-#navigation #logo {
+#navigation #logo-container {
   width: 20%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -99,6 +100,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-image: url("../img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 #navigation #reseauxNav {
   width: 40%;
@@ -255,6 +260,11 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+.project .project-container:hover {
+  cursor: pointer;
 }
 .project .project-container .circle1 {
   position: absolute;
@@ -385,6 +395,130 @@ body {
   margin: 8px;
   margin-left: 12px;
   font-size: 2vh;
+}
+.project .project-container #code-box {
+  display: none;
+}
+.project .project-container #site-box {
+  display: none;
+}
+.project .hoverProject {
+  height: 50vh;
+  width: 50vw;
+  margin: auto;
+  margin-top: 15vh;
+  z-index: 0;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 2em black;
+          box-shadow: 0 0 2em black;
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+}
+.project .hoverProject:hover {
+  cursor: pointer;
+}
+.project .hoverProject .project-title {
+  display: none;
+}
+.project .hoverProject .project-languages {
+  display: none;
+}
+.project .hoverProject .project-description {
+  display: none;
+}
+.project .hoverProject #code-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #002f4a;
+  width: 10vw;
+  height: 8vh;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+  font-family: "font-title", sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.5vh;
+}
+.project .hoverProject #code-box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: rgb(11, 155, 212);
+}
+.project .hoverProject #code-box h2 {
+  margin-right: 0.5vw;
+}
+.project .hoverProject #site-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #002f4a;
+  width: 10vw;
+  height: 8vh;
+  border-radius: 10px;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
+  font-family: "font-title", sans-serif;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 1.5vh;
+}
+.project .hoverProject #site-box:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  background-color: rgb(11, 155, 212);
+}
+.project .hoverProject #site-box h2 {
+  margin-right: 0.5vw;
+}
+.project .hoverProject .circle1 {
+  position: absolute;
+  border: 5px solid rgba(0, 47, 74, 0.368627451);
+  height: 500px;
+  width: 500px;
+  border-radius: 300%;
+  top: 10%;
+  left: 50%;
+  z-index: -1;
+}
+.project .hoverProject .circle2 {
+  position: absolute;
+  background-color: rgba(0, 47, 74, 0.368627451);
+  height: 300px;
+  width: 300px;
+  border-radius: 300%;
+  top: 70%;
+  left: 89%;
+  z-index: -1;
+}
+.project .hoverProject .circle3 {
+  position: absolute;
+  background-color: rgba(11, 155, 212, 0.438);
+  height: 200px;
+  width: 200px;
+  border-radius: 300%;
+  top: 10%;
+  left: 3%;
+  z-index: -1;
 }
 .project #project1-pic {
   background-image: url("../img/Projet1.JPG");

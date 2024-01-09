@@ -31,6 +31,13 @@ body{
     color: $white;
 }
 
+.navlink{
+    &:visited{
+        color: $white;
+    }
+}
+
+
 
 @mixin childCenter{
     display: flex;

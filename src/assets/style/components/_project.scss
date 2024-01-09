@@ -2,7 +2,7 @@
     position: relative;
     overflow: hidden;
     height: 100vh;
-    
+
     .project-container{
         height: 50vh;
         width: 30vw;
@@ -11,6 +11,11 @@
         z-index: 0;
         border-radius: 20px;
         box-shadow: 0 0 1em black;
+        transition: 1s;
+
+        &:hover{
+            cursor: pointer;
+        }
         
         .circle1{
         position: absolute;
@@ -121,6 +126,123 @@
                 font-size: 2vh;
             }
         }
+
+        #code-box{
+            display: none;
+        }
+
+        #site-box{
+            display: none;
+        }
+    }
+
+    .hoverProject{
+        height: 50vh;
+        width: 50vw;
+        margin: auto;
+        margin-top: 15vh;
+        z-index: 0;
+        border-radius: 20px;
+        box-shadow: 0 0 2em black;
+        transition: 1s ease;
+
+        &:hover{
+            cursor: pointer;
+        }
+    
+            .project-title{
+                display: none;
+            }
+    
+            .project-languages{
+                display: none;
+            }
+    
+            .project-description{
+                display: none;
+            }
+        
+        #code-box{
+            @include childCenter;
+            background-color: $blue;
+            width: 10vw;
+            height: 8vh;
+            border-radius: 10px;
+            position: absolute;
+            top: 40%;
+            left: 35%;
+            box-shadow: 0 0 1em black;
+            font-family: $font-title;
+            transition: 0.5s;
+            font-size: 1.5vh;
+
+            &:hover{
+                transform: scale(1.2);
+                background-color: $lightblue;
+            }
+            
+            h2{
+                margin-right: 0.5vw;
+            }
+        }
+
+        #site-box{
+            @include childCenter;
+            background-color: $blue;
+            width: 10vw;
+            height: 8vh;
+            border-radius: 10px;
+            position: absolute;
+            top: 40%;
+            left: 55%;
+            box-shadow: 0 0 1em black;
+            font-family: $font-title;
+            transition: 0.5s;
+            font-size: 1.5vh;
+
+            &:hover{
+                transform: scale(1.2);
+                background-color: $lightblue;
+            }
+
+            h2{
+                margin-right: 0.5vw;
+            }
+        }
+
+        .circle1{
+            position: absolute;
+            border: 5px solid $blue2;
+            height: 500px;
+            width: 500px;
+            border-radius: 300%;
+            top: 10%;
+            left: 50%;
+            z-index: -1;
+            }
+    
+            .circle2{
+                position: absolute;
+                background-color: $blue2;
+                height: 300px;
+                width: 300px;
+                border-radius: 300%;
+                top: 70%;
+                left: 89%;
+                z-index: -1;
+            }
+    
+            .circle3{
+                position: absolute;
+                background-color: $lightblue2;
+                height: 200px;
+                width: 200px;
+                border-radius: 300%;
+                top: 10%;
+                left: 3%;
+                z-index: -1;
+            }
+        
     }
 
     #project1-pic{
@@ -129,4 +251,6 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    
 }
