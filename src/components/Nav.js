@@ -4,10 +4,12 @@ import {
   faTwitter,
   faGithub,
 } from "@fortawesome/free-brands-svg-icons";
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
 const Nav = () => {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
   const linkedIn = () => {
     const linkedInUrl =
       "https://www.linkedin.com/in/raphael-mortiers-95a201267/";
@@ -30,9 +32,24 @@ const Nav = () => {
         <NavLink to="/" className="navlink">
           <li>Accueil</li>
         </NavLink>
-        <NavLink to="/projet-1" className="navlink">
-          <li>Projets</li>
-        </NavLink>
+        <li
+          className="navlink projects-li"
+          onMouseEnter={() => setDropdownOpen(true)}
+          onMouseLeave={() => setDropdownOpen(false)}
+        >
+          Projets
+          {isDropdownOpen && (
+            <ul className="dropdown-menu">
+              <NavLink to="/projet-1" className="navlink2">
+                <li>Projet 1</li>
+              </NavLink>
+              <NavLink to="/projet-2" className="navlink2">
+                <li>Projet 2</li>
+              </NavLink>
+              {/* Add more projects as needed */}
+            </ul>
+          )}
+        </li>
         <NavLink to="/cv" className="navlink">
           <li>CV</li>
         </NavLink>

@@ -33,6 +33,8 @@ body {
   background-color: #002f4a;
   color: #ebebeb;
   font-family: "font-title", sans-serif;
+  z-index: 2;
+  position: relative;
 }
 #navigation #navbar {
   display: -webkit-box;
@@ -63,6 +65,32 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+#navigation #navbar .navlink.projects-li {
+  position: relative;
+}
+#navigation #navbar .navlink.projects-li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: rgb(11, 155, 212);
+  color: #ebebeb;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+#navigation #navbar .navlink.projects-li .dropdown-menu .navlink2 {
+  width: 100%;
+  text-align: center;
+}
 #navigation #navbar .navlink:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -71,6 +99,12 @@ body {
   border-bottom-right-radius: 30px;
   -webkit-box-shadow: 0 0 2em black;
           box-shadow: 0 0 2em black;
+}
+#navigation #navbar .navlink:hover.projects-li .dropdown-menu {
+  display: block;
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 #navigation #navbar .navlink::after {
   content: "";
@@ -251,6 +285,34 @@ body {
   overflow: hidden;
   height: 100vh;
 }
+.project .rightArrow {
+  position: absolute;
+  top: 53%;
+  left: 90%;
+  font-size: 5vh;
+  color: rgba(0, 47, 74, 0.368627451);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.project .rightArrow:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: #002f4a;
+}
+.project .leftArrow {
+  position: absolute;
+  top: 53%;
+  left: 10%;
+  font-size: 5vh;
+  color: rgba(0, 47, 74, 0.368627451);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.project .leftArrow:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: #002f4a;
+}
 .project .project-container {
   height: 50vh;
   width: 30vw;
@@ -355,11 +417,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.project .project-container .project-languages h2 {
-  font-family: "font-title", sans-serif;
-  margin-bottom: 2vh;
-  font-size: 4vh;
-}
 .project .project-container .project-languages ul li {
   font-family: "font-text", sans-serif;
   margin: 8px;
@@ -386,11 +443,6 @@ body {
   border-radius: 20px;
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
-}
-.project .project-container .project-description h2 {
-  font-family: "font-title", sans-serif;
-  margin-bottom: 2vh;
-  font-size: 4vh;
 }
 .project .project-container .project-description p {
   font-family: "font-text", sans-serif;
@@ -524,6 +576,18 @@ body {
 }
 .project #project1-pic {
   background-image: url("../img/Projet1.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project2-pic {
+  background-image: url("../img/Projet2.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project3-pic {
+  background-image: url("../img/Projet3.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

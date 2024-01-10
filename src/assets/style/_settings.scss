@@ -44,3 +44,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+@mixin background{
+    background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+}

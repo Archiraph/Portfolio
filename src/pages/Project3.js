@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
-const Project1 = () => {
+const Project3 = () => {
   const projectClick = () => {
     const project = document.getElementsByClassName("project-container")[0];
     const project2 = document.getElementsByClassName("hoverProject")[0];
@@ -91,12 +91,16 @@ const Project1 = () => {
       </header>
 
       <NavLink to="../projet-2" className="navlink">
+        <div className="leftArrow">&#10094;</div>
+      </NavLink>
+
+      <NavLink to="../projet-4" className="navlink">
         <div className="rightArrow">&#10095;</div>
       </NavLink>
 
       <div
         className="project-container"
-        id="project1-pic"
+        id="project3-pic"
         onClick={projectClick}
       >
         <div className="circle1"></div>
@@ -119,7 +123,7 @@ const Project1 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Site vitrine SASS</h1>
+          <h1>Générateur de bulles</h1>
         </div>
         <motion.div
           variants={animLanguages}
@@ -131,7 +135,7 @@ const Project1 = () => {
             <ul>
               <li>&#x2022; HTML</li>
               <li>&#x2022; CSS</li>
-              <li>&#x2022; SCSS</li>
+              <li>&#x2022; Javascript</li>
             </ul>
           </div>
         </motion.div>
@@ -143,17 +147,16 @@ const Project1 = () => {
         >
           <div className="project-description">
             <p>
-              Premier projet en SASS d'un site vitrine "one page".
+              Mini-jeu de génération aléatoire de bulles.
               <br />
               <br />
-              La navigation n'est pas fonctionnelle et le site n'a pas de back
-              car il a été réalisé uniquement dans le but de se familiariser
-              avec le SASS.
+              Premier projet en JS. Le but est de cliquer sur les bulles ce qui
+              augmente le score.
             </p>
           </div>
         </motion.div>
         <NavLink
-          to="https://github.com/Archiraph/Projet1"
+          to="https://github.com/Archiraph/Bubble"
           className="navlink"
           target="_blank"
         >
@@ -197,4 +200,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Project3;
