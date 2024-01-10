@@ -17,7 +17,7 @@ const Project1 = () => {
 
   const animLeftTitle = {
     initial: {
-      x: 0,
+      x: -4,
       y: 0,
     },
     visible: {
@@ -141,12 +141,12 @@ const Project1 = () => {
           <div className="project-description">
             <h2>Description</h2>
             <p>
-              Premier projet en SASS d'un site vitrine one page.
+              Premier projet en SASS d'un site vitrine "one page".
               <br />
               <br />
-              La nav n'est pas fonctionnelle et le site n'a pas de back car il a
-              été réalisé uniquement dans le but de se familiariser avec le
-              SASS.
+              La navigation n'est pas fonctionnelle et le site n'a pas de back
+              car il a été réalisé uniquement dans le but de se familiariser
+              avec le SASS.
             </p>
           </div>
         </motion.div>
