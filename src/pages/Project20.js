@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
-const Project3 = () => {
+const Project20 = () => {
   const projectClick = () => {
     const project = document.getElementsByClassName("project-container")[0];
     const project2 = document.getElementsByClassName("hoverProject")[0];
@@ -90,17 +90,17 @@ const Project3 = () => {
         <Nav />
       </header>
 
-      <NavLink to="../projet-2" className="navlink">
+      <NavLink to="../projet-19" className="navlink">
         <div className="leftArrow">&#10094;</div>
       </NavLink>
 
-      <NavLink to="../projet-4" className="navlink">
+      <NavLink to="../projet-21" className="navlink">
         <div className="rightArrow">&#10095;</div>
       </NavLink>
 
       <div
         className="project-container"
-        id="project3-pic"
+        id="project20-pic"
         onClick={projectClick}
       >
         <div className="circle1"></div>
@@ -123,7 +123,7 @@ const Project3 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Générateur de bulles</h1>
+          <h1>Quizz JS</h1>
         </div>
         <motion.div
           variants={animLanguages}
@@ -134,7 +134,7 @@ const Project3 = () => {
           <div className="project-languages">
             <ul>
               <li>&#x2022; HTML</li>
-              <li>&#x2022; CSS</li>
+              <li>&#x2022; SCSS</li>
               <li>&#x2022; Javascript</li>
             </ul>
           </div>
@@ -146,17 +146,11 @@ const Project3 = () => {
           animate="visible"
         >
           <div className="project-description">
-            <p>
-              Mini-jeu de génération aléatoire de bulles.
-              <br />
-              <br />
-              Premier projet en JS. Le but est de cliquer sur les bulles qui
-              apparraissent à l'écran, ce qui augmente le score.
-            </p>
+            <p>Petit projet de Quizz sur le javascript avec score à la fin.</p>
           </div>
         </motion.div>
         <NavLink
-          to="https://github.com/Archiraph/Bubble"
+          to="https://github.com/Archiraph/Quizz-App"
           className="navlink"
           target="_blank"
         >
@@ -200,4 +194,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default Project20;

@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 
 const Nav = () => {
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -26,30 +27,42 @@ const Nav = () => {
     window.open(twitterUrl, "_blank");
   };
 
+  const toggleDropdown = () => {
+    setDropdownOpen(!isDropdownOpen);
+  };
+
   return (
     <div id="navigation">
       <ul id="navbar">
         <NavLink to="/" className="navlink">
           <li>Accueil</li>
         </NavLink>
-        <li
-          className="navlink projects-li"
-          onMouseEnter={() => setDropdownOpen(true)}
-          onMouseLeave={() => setDropdownOpen(false)}
+        <motion.li
+          onHoverStart={toggleDropdown}
+          onHoverEnd={toggleDropdown}
+          className="navlink"
         >
-          Projets
-          {isDropdownOpen && (
-            <ul className="dropdown-menu">
-              <NavLink to="/projet-1" className="navlink2">
-                <li>Projet 1</li>
-              </NavLink>
-              <NavLink to="/projet-2" className="navlink2">
-                <li>Projet 2</li>
-              </NavLink>
-              {/* Add more projects as needed */}
-            </ul>
-          )}
-        </li>
+          <li>Projets</li>
+          <AnimatePresence>
+            {isDropdownOpen && (
+              <motion.ul
+                id="dropdown"
+                initial={{ opacity: 0, y: "4vh" }}
+                animate={{ opacity: 1, y: "9vh" }}
+                exit={{ opacity: 0, y: "9vh" }}
+                transition={{ duration: 0.5 }}
+              >
+                <NavLink to="/projet-1" className="navlink2">
+                  <li>Projet 1</li>
+                </NavLink>
+                <NavLink to="/projet-2" className="navlink2">
+                  <li>Projet 2</li>
+                </NavLink>
+                {/* Add more projects as needed */}
+              </motion.ul>
+            )}
+          </AnimatePresence>
+        </motion.li>
         <NavLink to="/cv" className="navlink">
           <li>CV</li>
         </NavLink>

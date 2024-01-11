@@ -33,8 +33,24 @@ body {
   background-color: #002f4a;
   color: #ebebeb;
   font-family: "font-title", sans-serif;
-  z-index: 2;
-  position: relative;
+}
+#navigation #dropdown {
+  position: absolute;
+  background-color: #002f4a;
+  color: #ebebeb;
+  border-radius: 0 0 10px 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 0;
+  width: 100%;
+}
+#navigation #dropdown .navlink2 {
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+#navigation #dropdown .navlink2:visited {
+  color: #ebebeb;
 }
 #navigation #navbar {
   display: -webkit-box;
@@ -65,32 +81,6 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
-#navigation #navbar .navlink.projects-li {
-  position: relative;
-}
-#navigation #navbar .navlink.projects-li .dropdown-menu {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: rgb(11, 155, 212);
-  color: #ebebeb;
-  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  z-index: 1;
-  opacity: 0;
-  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: opacity 0.3s, -webkit-transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s;
-  transition: opacity 0.3s, transform 0.3s, -webkit-transform 0.3s;
-  -webkit-transform: translateY(10px);
-          transform: translateY(10px);
-}
-#navigation #navbar .navlink.projects-li .dropdown-menu .navlink2 {
-  width: 100%;
-  text-align: center;
-}
 #navigation #navbar .navlink:hover {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
@@ -99,12 +89,6 @@ body {
   border-bottom-right-radius: 30px;
   -webkit-box-shadow: 0 0 2em black;
           box-shadow: 0 0 2em black;
-}
-#navigation #navbar .navlink:hover.projects-li .dropdown-menu {
-  display: block;
-  opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
 }
 #navigation #navbar .navlink::after {
   content: "";
@@ -588,6 +572,174 @@ body {
 }
 .project #project3-pic {
   background-image: url("../img/Projet3.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project4-pic {
+  background-image: url("../img/Projet4.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project5-pic {
+  background-image: url("../img/Projet5.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project6-pic {
+  background-image: url("../img/Projet6.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project7-pic {
+  background-image: url("../img/Projet7.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project8-pic {
+  background-image: url("../img/Projet8.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project9-pic {
+  background-image: url("../img/Projet9.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project10-pic {
+  background-image: url("../img/Projet10.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project11-pic {
+  background-image: url("../img/Projet11.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project12-pic {
+  background-image: url("../img/Projet12.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project13-pic {
+  background-image: url("../img/Projet13.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project14-pic {
+  background-image: url("../img/Projet14.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project15-pic {
+  background-image: url("../img/Projet15.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project16-pic {
+  background-image: url("../img/Projet16.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project17-pic {
+  background-image: url("../img/Projet17.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project18-pic {
+  background-image: url("../img/Projet18.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project19-pic {
+  background-image: url("../img/Projet19.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project20-pic {
+  background-image: url("../img/Projet20.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project21-pic {
+  background-image: url("../img/Projet21.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project22-pic {
+  background-image: url("../img/Projet22.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project23-pic {
+  background-image: url("../img/Projet23.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project24-pic {
+  background-image: url("../img/Projet24.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project25-pic {
+  background-image: url("../img/Projet25.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project26-pic {
+  background-image: url("../img/Projet26.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project27-pic {
+  background-image: url("../img/Projet27.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project28-pic {
+  background-image: url("../img/Projet28.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project29-pic {
+  background-image: url("../img/Projet29.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project30-pic {
+  background-image: url("../img/Projet30.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.project #project31-pic {
+  background-image: url("../img/Projet31.JPG");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

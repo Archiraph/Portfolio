@@ -3,7 +3,7 @@ import Nav from "../components/Nav";
 import { motion } from "framer-motion";
 import { NavLink } from "react-router-dom";
 
-const Project3 = () => {
+const Project5 = () => {
   const projectClick = () => {
     const project = document.getElementsByClassName("project-container")[0];
     const project2 = document.getElementsByClassName("hoverProject")[0];
@@ -90,17 +90,17 @@ const Project3 = () => {
         <Nav />
       </header>
 
-      <NavLink to="../projet-2" className="navlink">
+      <NavLink to="../projet-4" className="navlink">
         <div className="leftArrow">&#10094;</div>
       </NavLink>
 
-      <NavLink to="../projet-4" className="navlink">
+      <NavLink to="../projet-6" className="navlink">
         <div className="rightArrow">&#10095;</div>
       </NavLink>
 
       <div
         className="project-container"
-        id="project3-pic"
+        id="project5-pic"
         onClick={projectClick}
       >
         <div className="circle1"></div>
@@ -123,7 +123,7 @@ const Project3 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Générateur de bulles</h1>
+          <h1>NavBar Scroll</h1>
         </div>
         <motion.div
           variants={animLanguages}
@@ -147,16 +147,14 @@ const Project3 = () => {
         >
           <div className="project-description">
             <p>
-              Mini-jeu de génération aléatoire de bulles.
-              <br />
-              <br />
-              Premier projet en JS. Le but est de cliquer sur les bulles qui
-              apparraissent à l'écran, ce qui augmente le score.
+              Petit projet permettant de cacher la navigation lorsque
+              l'utilisateur scroll vers le bas et l'afficher quand il scroll
+              vers le haut.
             </p>
           </div>
         </motion.div>
         <NavLink
-          to="https://github.com/Archiraph/Bubble"
+          to="https://github.com/Archiraph/Navbar-Scroll"
           className="navlink"
           target="_blank"
         >
@@ -200,4 +198,4 @@ const Project3 = () => {
   );
 };
 
-export default Project3;
+export default Project5;
