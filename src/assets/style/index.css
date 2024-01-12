@@ -28,6 +28,10 @@ body {
   color: #ebebeb;
 }
 
+li:visited {
+  color: #ebebeb;
+}
+
 #navigation {
   width: 100vw;
   height: 20vh;
