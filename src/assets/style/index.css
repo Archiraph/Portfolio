@@ -24,6 +24,10 @@ body {
   color: #ebebeb;
 }
 
+.navlink2:visited {
+  color: #ebebeb;
+}
+
 #navigation {
   width: 100vw;
   height: 20vh;
@@ -48,9 +52,6 @@ body {
   width: 100%;
   text-align: center;
   text-decoration: none;
-}
-#navigation #dropdown .navlink2:visited {
-  color: #ebebeb;
 }
 #navigation #navbar {
   display: -webkit-box;
@@ -103,6 +104,7 @@ body {
   -webkit-transition: width 0.3s ease-in-out;
   transition: width 0.3s ease-in-out;
   top: 60%;
+  display: block;
 }
 #navigation #navbar .navlink:hover::after {
   width: 68%;

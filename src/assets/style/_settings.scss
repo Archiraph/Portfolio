@@ -37,6 +37,12 @@ body{
     }
 }
 
+.navlink2{
+    &:visited{
+        color: $white;
+    }
+}
+
 
 
 @mixin childCenter{

@@ -42,7 +42,9 @@ const Nav = () => {
           onHoverEnd={toggleDropdown}
           className="navlink"
         >
-          <li>Projets</li>
+          <NavLink to="/projet-1" className="navlink2">
+            <li>Projets</li>
+          </NavLink>
           <AnimatePresence>
             {isDropdownOpen && (
               <motion.ul
