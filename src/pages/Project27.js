@@ -147,11 +147,11 @@ const Project27 = () => {
         >
           <div className="project-description">
             <p>
-              Gros projet d'un site pouvant servir de protfolio en react.
+              Gros projet d'un site pouvant servir de portfolio en react.
               <br />
               <br />
               De nombreuses animations ont été intégrées grâce notamment à
-              Framer-motion. ( Le titre est déplaçable )
+              Framer-motion. (Le titre est déplaçable).
             </p>
           </div>
         </motion.div>

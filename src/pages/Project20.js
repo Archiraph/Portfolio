@@ -146,7 +146,7 @@ const Project20 = () => {
           animate="visible"
         >
           <div className="project-description">
-            <p>Petit projet de Quizz sur le javascript avec score à la fin.</p>
+            <p>Petit projet de quiz sur le javascript avec score à la fin.</p>
           </div>
         </motion.div>
         <NavLink

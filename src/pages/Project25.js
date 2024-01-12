@@ -148,7 +148,7 @@ const Project25 = () => {
           <div className="project-description">
             <p>
               Ce projet permet une recherche en React de recettes sur base
-              d'ingrédients écrit dans la barre de recherche.
+              d'ingrédients écrits dans la barre de recherche.
               <br />
               <br />
               Ce site utilise l'API: https://www.themealdb.com /api/json/v1/1

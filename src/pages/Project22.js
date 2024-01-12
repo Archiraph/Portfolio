@@ -148,7 +148,7 @@ const Project22 = () => {
           <div className="project-description">
             <p>
               Ce petit projet permet de déplacer des éléments d'un conteneur à
-              un autre
+              un autre.
             </p>
           </div>
         </motion.div>

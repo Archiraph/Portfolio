@@ -151,7 +151,7 @@ const Project3 = () => {
               <br />
               <br />
               Premier projet en JS. Le but est de cliquer sur les bulles qui
-              apparraissent à l'écran, ce qui augmente le score.
+              apparaissent à l'écran, ce qui augmente le score.
             </p>
           </div>
         </motion.div>

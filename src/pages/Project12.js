@@ -150,8 +150,8 @@ const Project12 = () => {
               Site permettant de maintenir une liste de choses à faire.
               <br />
               <br />
-              La liste est enregistrée dans le Locale Storage et permet donc de
-              quitter le site sans perdre ses données.
+              La liste est enregistrée dans le "Locale Storage" et permet donc
+              de quitter le site sans perdre ses données.
             </p>
           </div>
         </motion.div>

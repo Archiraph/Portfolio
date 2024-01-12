@@ -123,7 +123,7 @@ const Project30 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Posts React</h1>
+          <h1>NFT Gallery</h1>
         </div>
         <motion.div
           variants={animLanguages}
@@ -148,8 +148,7 @@ const Project30 = () => {
         >
           <div className="project-description">
             <p>
-              Site imitant un réseau social avec la possiblilité d'ajouter,
-              modifier, supprimer ou liker des posts.
+              Site permettant de partager, modifier ou supprimer des photos.
             </p>
           </div>
         </motion.div>

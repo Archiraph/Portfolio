@@ -147,8 +147,8 @@ const Project19 = () => {
         >
           <div className="project-description">
             <p>
-              Ce site permet de paramétrer des exercices de yoga ( temps, ordre,
-              type ).
+              Ce site permet de préparer une séance de yoga ( temps, ordre, type
+              d'exercice ).
             </p>
           </div>
         </motion.div>

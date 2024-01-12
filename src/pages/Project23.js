@@ -147,8 +147,8 @@ const Project23 = () => {
         >
           <div className="project-description">
             <p>
-              Ce mini-jeu inspiré d'un jeu célèbre est recréé en pur js sur ce
-              site.
+              Ce mini-jeu inspiré d'une célèbre application est recréé en pur js
+              sur ce site.
             </p>
           </div>
         </motion.div>

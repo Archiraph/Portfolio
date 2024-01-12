@@ -148,7 +148,7 @@ const Project26 = () => {
         >
           <div className="project-description">
             <p>
-              Site en permettant l'envoi instantané de messages. La liste de ces
+              Site permettant l'envoi instantané de messages. La liste de ces
               derniers s'affiche sans rafraichissement.
             </p>
           </div>

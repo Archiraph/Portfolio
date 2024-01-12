@@ -148,8 +148,8 @@ const Project5 = () => {
           <div className="project-description">
             <p>
               Petit projet permettant de cacher la navigation lorsque
-              l'utilisateur scroll vers le bas et l'afficher quand il scroll
-              vers le haut.
+              l'utilisateur fait défiler vers le bas et de l'afficher quand il
+              fait défiler vers le haut.
             </p>
           </div>
         </motion.div>

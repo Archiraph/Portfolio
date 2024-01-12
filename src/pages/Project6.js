@@ -147,7 +147,7 @@ const Project6 = () => {
         >
           <div className="project-description">
             <p>
-              Projet faisant apparraitre les éléments du site au fur et à mesure
+              Projet faisant apparaitre les éléments du site au fur et à mesure
               du défilement.
             </p>
           </div>
