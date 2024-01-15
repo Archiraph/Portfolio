@@ -6,7 +6,7 @@ const Home = () => {
   const animTextLeft = {
     initial: {
       opacity: 0,
-      x: -400,
+      x: -30,
       y: -100,
     },
     visible: {
