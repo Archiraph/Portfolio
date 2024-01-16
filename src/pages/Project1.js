@@ -146,7 +146,7 @@ const Project1 = () => {
               Premier projet en SASS d'un site vitrine "one page".
               <br />
               <br />
-              Ce site a été réalisé pour se familiariser avec le SASS
+              Ce site a été réalisé pour se familiariser avec le SASS.
             </p>
           </div>
         </motion.div>
