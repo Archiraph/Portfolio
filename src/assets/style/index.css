@@ -75,8 +75,8 @@ li {
   transition: 0.3s;
 }
 #navigation #navbar #dropdown .navlink2:hover {
-  -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   font-weight: 900;
 }
 #navigation #navbar .navlink {
@@ -625,187 +625,187 @@ li {
   z-index: -1;
 }
 .project #project1-pic {
-  background-image: url("../img/Projet1.JPG");
+  background-image: url("../img/Projet1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project2-pic {
-  background-image: url("../img/Projet2.JPG");
+  background-image: url("../img/Projet2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project3-pic {
-  background-image: url("../img/Projet3.JPG");
+  background-image: url("../img/Projet3.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project4-pic {
-  background-image: url("../img/Projet4.JPG");
+  background-image: url("../img/Projet4.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project5-pic {
-  background-image: url("../img/Projet5.JPG");
+  background-image: url("../img/Projet5.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project6-pic {
-  background-image: url("../img/Projet6.JPG");
+  background-image: url("../img/Projet6.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project7-pic {
-  background-image: url("../img/Projet7.JPG");
+  background-image: url("../img/Projet7.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project8-pic {
-  background-image: url("../img/Projet8.JPG");
+  background-image: url("../img/Projet8.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project9-pic {
-  background-image: url("../img/Projet9.JPG");
+  background-image: url("../img/Projet9.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project10-pic {
-  background-image: url("../img/Projet10.JPG");
+  background-image: url("../img/Projet10.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project11-pic {
-  background-image: url("../img/Projet11.JPG");
+  background-image: url("../img/Projet11.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project12-pic {
-  background-image: url("../img/Projet12.JPG");
+  background-image: url("../img/Projet12.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project13-pic {
-  background-image: url("../img/Projet13.JPG");
+  background-image: url("../img/Projet13.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project14-pic {
-  background-image: url("../img/Projet14.JPG");
+  background-image: url("../img/Projet14.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project15-pic {
-  background-image: url("../img/Projet15.JPG");
+  background-image: url("../img/Projet15.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project16-pic {
-  background-image: url("../img/Projet16.JPG");
+  background-image: url("../img/Projet16.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project17-pic {
-  background-image: url("../img/Projet17.JPG");
+  background-image: url("../img/Projet17.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project18-pic {
-  background-image: url("../img/Projet18.JPG");
+  background-image: url("../img/Projet18.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project19-pic {
-  background-image: url("../img/Projet19.JPG");
+  background-image: url("../img/Projet19.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project20-pic {
-  background-image: url("../img/Projet20.JPG");
+  background-image: url("../img/Projet20.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project21-pic {
-  background-image: url("../img/Projet21.JPG");
+  background-image: url("../img/Projet21.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project22-pic {
-  background-image: url("../img/Projet22.JPG");
+  background-image: url("../img/Projet22.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project23-pic {
-  background-image: url("../img/Projet23.JPG");
+  background-image: url("../img/Projet23.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project24-pic {
-  background-image: url("../img/Projet24.JPG");
+  background-image: url("../img/Projet24.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project25-pic {
-  background-image: url("../img/Projet25.JPG");
+  background-image: url("../img/Projet25.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project26-pic {
-  background-image: url("../img/Projet26.JPG");
+  background-image: url("../img/Projet26.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project27-pic {
-  background-image: url("../img/Projet27.JPG");
+  background-image: url("../img/Projet27.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project28-pic {
-  background-image: url("../img/Projet28.JPG");
+  background-image: url("../img/Projet28.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project29-pic {
-  background-image: url("../img/Projet29.JPG");
+  background-image: url("../img/Projet29.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project30-pic {
-  background-image: url("../img/Projet30.JPG");
+  background-image: url("../img/Projet30.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 .project #project31-pic {
-  background-image: url("../img/Projet31.JPG");
+  background-image: url("../img/Projet31.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -956,6 +956,49 @@ li {
   left: 100%;
   z-index: -1;
 }
+#home footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #002f4a;
+  width: 50vw;
+  height: 5vh;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: "font-text", sans-serif;
+  font-size: 1.5vh;
+}
+#home footer .navLi {
+  margin: auto;
+}
+#home footer li {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+#home footer li:hover {
+  color: rgb(11, 155, 212);
+  cursor: pointer;
+}
+#home footer li svg {
+  text-align: center;
+  margin-right: 6px;
+}
 
 #cv-global #cv-container {
   height: 100vh;
@@ -1002,7 +1045,7 @@ li {
   z-index: -1;
 }
 #cv-global .image {
-  background-image: url("../img/cv.jpg");
+  background-image: url("../img/cv.png");
   height: 96vh;
   width: 35vw;
   background-repeat: no-repeat;

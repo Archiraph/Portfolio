@@ -146,9 +146,7 @@ const Project1 = () => {
               Premier projet en SASS d'un site vitrine "one page".
               <br />
               <br />
-              La navigation n'est pas fonctionnelle et le site n'a pas de back
-              car il a été réalisé uniquement dans le but de se familiariser
-              avec le SASS.
+              Ce site a été réalisé pour se familiariser avec le SASS
             </p>
           </div>
         </motion.div>
