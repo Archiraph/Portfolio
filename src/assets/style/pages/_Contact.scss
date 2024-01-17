@@ -1,0 +1,140 @@
+#contact {
+    overflow: hidden;
+
+    .circle1{
+        position: absolute;
+        border: 5px solid $blue2;
+        height: 500px;
+        width: 500px;
+        border-radius: 300%;
+        top: 0%;
+        left: 85%;
+        z-index: -1;
+    }
+
+    .circle2{
+        position: absolute;
+        background-color: $lightblue2;
+        height: 300px;
+        width: 300px;
+        border-radius: 300%;
+        top: 55%;
+        left: 5%;
+        z-index: -1;
+    }
+
+    
+    #head-contact{
+        text-align: center;
+        color: $blue;
+        @include childCenter;
+        flex-direction: column;
+        border-radius: 10px;
+        height: 22vh;
+        width: 50vw;
+        margin: auto;
+        padding: 2em;
+        margin-top: 5vh;
+        margin-bottom: 3vh;
+        font-size: 1.7vh;
+        
+        h2{
+            font-family: $font-title;
+            margin-bottom: 2vh;
+            font-size: 3vh;
+            letter-spacing: 1px;
+        }
+
+        p{
+            font-family: $font-text;
+        }
+    }
+    #content-contact{
+        background-color: $blue;
+        @include childCenter;
+        border-radius: 10px;
+        height: 48vh;
+        width: 70vw;
+        margin: auto;
+        padding: 2em;
+        font-size: 1.5vh;
+        box-shadow: 0 0 2em black;
+        font-size: 2.5vh;
+
+        #infos-contact{
+            margin-top: 0;
+            height: 27vh;
+            width: 50%;
+
+            .navLi{
+                text-decoration: none;
+            }
+
+            li{
+                height: 9vh;
+                display: flex;
+                align-items: center;
+                font-family: $font-text;
+
+                svg{
+                    margin-right: 10px;
+                }
+
+                path{
+                    @include childCenter;
+                }
+            }
+        }
+
+        .form-content{
+            width: 50%;
+            height: 45vh;
+            border-left: 1px solid $white;
+
+            div{
+                display: flex;
+                flex-direction: column;
+                font-family: $font-text;
+                margin-top: 2vh;
+                margin-left: 1vw;
+
+                label{
+                    margin-bottom: 1vh;
+                }
+
+                #email{
+                    height: 3vh;
+                    width: 15vw;
+                }
+
+                #mess{
+                    min-height: 20vh;
+                    max-height: 25vh;
+                    min-width: 25vw;
+                    max-width: 31vw;
+                }
+            }
+
+            #button{
+                margin: auto;
+                margin-top: 2vh;
+                width: 7vw;
+                height: 4vh;
+                background-color: $lightblue2;
+                color: $white;
+                border-radius: 25px;
+                border: 1px solid $lightblue;
+                transition: 0.3s;
+                font-family: $font-title;
+                font-size: 1.5vh;
+
+                &:hover{
+                    transform: scale(1.2);
+                    cursor: pointer;
+                    background-color: $lightblue;
+                    box-shadow: 0 0 1em black;
+                }
+            }
+        }
+    }
+}

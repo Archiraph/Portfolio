@@ -1055,4 +1055,167 @@ li {
   position: absolute;
   top: 30vh;
   left: 33vw;
+}
+
+#contact {
+  overflow: hidden;
+}
+#contact .circle1 {
+  position: absolute;
+  border: 5px solid rgba(0, 47, 74, 0.368627451);
+  height: 500px;
+  width: 500px;
+  border-radius: 300%;
+  top: 0%;
+  left: 85%;
+  z-index: -1;
+}
+#contact .circle2 {
+  position: absolute;
+  background-color: rgba(11, 155, 212, 0.438);
+  height: 300px;
+  width: 300px;
+  border-radius: 300%;
+  top: 55%;
+  left: 5%;
+  z-index: -1;
+}
+#contact #head-contact {
+  text-align: center;
+  color: #002f4a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  height: 22vh;
+  width: 50vw;
+  margin: auto;
+  padding: 2em;
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+  font-size: 1.7vh;
+}
+#contact #head-contact h2 {
+  font-family: "font-title", sans-serif;
+  margin-bottom: 2vh;
+  font-size: 3vh;
+  letter-spacing: 1px;
+}
+#contact #head-contact p {
+  font-family: "font-text", sans-serif;
+}
+#contact #content-contact {
+  background-color: #002f4a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  height: 48vh;
+  width: 70vw;
+  margin: auto;
+  padding: 2em;
+  font-size: 1.5vh;
+  -webkit-box-shadow: 0 0 2em black;
+          box-shadow: 0 0 2em black;
+  font-size: 2.5vh;
+}
+#contact #content-contact #infos-contact {
+  margin-top: 0;
+  height: 27vh;
+  width: 50%;
+}
+#contact #content-contact #infos-contact .navLi {
+  text-decoration: none;
+}
+#contact #content-contact #infos-contact li {
+  height: 9vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "font-text", sans-serif;
+}
+#contact #content-contact #infos-contact li svg {
+  margin-right: 10px;
+}
+#contact #content-contact #infos-contact li path {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#contact #content-contact .form-content {
+  width: 50%;
+  height: 45vh;
+  border-left: 1px solid #ebebeb;
+}
+#contact #content-contact .form-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "font-text", sans-serif;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+#contact #content-contact .form-content div label {
+  margin-bottom: 1vh;
+}
+#contact #content-contact .form-content div #email {
+  height: 3vh;
+  width: 15vw;
+}
+#contact #content-contact .form-content div #mess {
+  min-height: 20vh;
+  max-height: 25vh;
+  min-width: 25vw;
+  max-width: 31vw;
+}
+#contact #content-contact .form-content #button {
+  margin: auto;
+  margin-top: 2vh;
+  width: 7vw;
+  height: 4vh;
+  background-color: rgba(11, 155, 212, 0.438);
+  color: #ebebeb;
+  border-radius: 25px;
+  border: 1px solid rgb(11, 155, 212);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-family: "font-title", sans-serif;
+  font-size: 1.5vh;
+}
+#contact #content-contact .form-content #button:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  cursor: pointer;
+  background-color: rgb(11, 155, 212);
+  -webkit-box-shadow: 0 0 1em black;
+          box-shadow: 0 0 1em black;
 }/*# sourceMappingURL=index.css.map */
