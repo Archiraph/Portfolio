@@ -176,7 +176,7 @@ const Project3 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="http://127.0.0.1:5500/"
+          to="https://bubble-beryl.vercel.app/"
           className="navlink"
           target="_blank"
         >

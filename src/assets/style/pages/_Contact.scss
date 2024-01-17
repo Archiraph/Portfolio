@@ -98,6 +98,18 @@
                 margin-top: 2vh;
                 margin-left: 1vw;
 
+                input{
+                    border-radius: 10px;
+                    border: 1px solid $blue2;
+                    padding: 5px;
+                }
+
+                textarea{
+                    border-radius: 10px;
+                    border: 1px solid $blue2;
+                    padding: 5px;
+                }
+
                 label{
                     margin-bottom: 1vh;
                 }

@@ -177,7 +177,7 @@ const Project17 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="http://127.0.0.1:5500/"
+          to="https://meal-app-kohl.vercel.app/"
           className="navlink"
           target="_blank"
         >

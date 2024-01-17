@@ -179,7 +179,7 @@ const Project28 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="http://127.0.0.1:5500/"
+          to="https://crypto-app-phi-six.vercel.app/"
           className="navlink"
           target="_blank"
         >

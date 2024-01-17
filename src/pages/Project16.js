@@ -176,7 +176,7 @@ const Project16 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="http://127.0.0.1:5500/"
+          to="https://random-user-app-livid.vercel.app/"
           className="navlink"
           target="_blank"
         >

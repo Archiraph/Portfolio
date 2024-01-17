@@ -173,7 +173,7 @@ const Project22 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="http://127.0.0.1:5500/"
+          to="https://drag-and-drop-rosy.vercel.app/"
           className="navlink"
           target="_blank"
         >
