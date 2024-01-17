@@ -176,7 +176,7 @@ const Project8 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="https://sidebar-ochre.vercel.app/"
+          to="https://text-anim-virid.vercel.app/"
           className="navlink"
           target="_blank"
         >

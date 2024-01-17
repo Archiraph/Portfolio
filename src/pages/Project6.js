@@ -173,7 +173,7 @@ const Project6 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="https://navbar-scroll-two.vercel.app/"
+          to="https://scroll-popup.vercel.app/"
           className="navlink"
           target="_blank"
         >

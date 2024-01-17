@@ -176,7 +176,7 @@ const Project9 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="https://color-g-n-rator.vercel.app/"
+          to="https://password-maker-azure.vercel.app/"
           className="navlink"
           target="_blank"
         >
