@@ -150,7 +150,7 @@ const Project31 = () => {
           </div>
         </motion.div>
         <NavLink
-          to="https://app-js-fullstack.vercel.app/"
+          to="https://github.com/Archiraph/APP-JS-FULLSTACK"
           className="navlink"
           target="_blank"
         >
@@ -170,7 +170,7 @@ const Project31 = () => {
           </div>
         </NavLink>
         <NavLink
-          to="https://full-stack-app-zeta.vercel.app/"
+          to="https://app-js-fullstack.vercel.app/"
           className="navlink"
           target="_blank"
         >
