@@ -150,7 +150,7 @@ const Project31 = () => {
           </div>
         </motion.div>
         <NavLink
-          to="https://github.com/Archiraph/FullStack-App"
+          to="https://app-js-fullstack.vercel.app/"
           className="navlink"
           target="_blank"
         >
