@@ -144,8 +144,8 @@ const Project31 = () => {
         >
           <div className="project-description">
             <p>
-              Site utilisant un back fonctionnel regroupant de nombreux langages
-              appris durant ma formation.
+              Site utilisant un back fonctionnel (en local) regroupant de
+              nombreux langages appris durant ma formation.
             </p>
           </div>
         </motion.div>
