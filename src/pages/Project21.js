@@ -146,7 +146,10 @@ const Project21 = () => {
           animate="visible"
         >
           <div className="project-description">
-            <p>Ce petit projet en pur js permet de dessiner dans un cadre.</p>
+            <p>
+              Ce petit projet en pur javascript permet de dessiner dans un
+              cadre.
+            </p>
           </div>
         </motion.div>
         <NavLink

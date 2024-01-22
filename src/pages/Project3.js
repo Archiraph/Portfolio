@@ -150,8 +150,8 @@ const Project3 = () => {
               Mini-jeu de génération aléatoire de bulles.
               <br />
               <br />
-              Premier projet en JS. Le but est de cliquer sur les bulles qui
-              apparaissent à l'écran, ce qui augmente le score.
+              Premier projet en Javascript. Le but est de cliquer sur les bulles
+              qui apparaissent à l'écran, ce qui augmente le score.
             </p>
           </div>
         </motion.div>

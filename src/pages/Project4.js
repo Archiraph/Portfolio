@@ -147,7 +147,7 @@ const Project4 = () => {
         >
           <div className="project-description">
             <p>
-              Mouse Effect en JS.
+              Mouse Effect en Javascript.
               <br />
               <br />
               Projet visant à mettre des effets sur la souris. Deux cercles

@@ -147,8 +147,8 @@ const Project10 = () => {
         >
           <div className="project-description">
             <p>
-              Formulaire en JS avec annotations en temps réel en fonction de ce
-              que l'utilisateur écrit.
+              Formulaire en Javascript avec annotations en temps réel en
+              fonction de ce que l'utilisateur écrit.
             </p>
           </div>
         </motion.div>
