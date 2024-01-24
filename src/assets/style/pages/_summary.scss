@@ -1,0 +1,62 @@
+#summary {
+    h1{
+        color: black;
+        font-family: $font-title;
+        @include childCenter;
+        margin-top: 5vh;
+        font-size: 4vh;
+    }
+
+    p{
+        color: black;
+        font-family: $font-text;
+        @include childCenter;
+        margin-top: 5vh;
+        font-size: 2vh;
+    }
+
+    #sumContent{
+        color: black;
+        display: grid;
+        grid-template-areas:
+        "sass js"
+        "react js"
+        "redux js";
+        text-align: center;
+        margin-top: 5vh;
+
+
+        h2{
+            font-family: $font-title;
+            margin-bottom: 2vh;
+            text-decoration: underline;
+            font-size: 3vh;
+        }
+
+        li{
+            color: black;
+            font-family: $font-text;
+            font-size: 2vh;
+
+            &:hover{
+                text-decoration: underline;
+            }
+        }
+
+        #SumSass{
+            grid-area: sass;
+        }
+        #SumJs{
+            grid-area: js;
+            border-left: 1px solid black;
+        }
+        #SumReact{
+            grid-area: react;
+        }
+        #SumRedux{
+            grid-area: redux;
+        }
+    }
+
+    
+}

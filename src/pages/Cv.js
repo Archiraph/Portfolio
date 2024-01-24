@@ -14,8 +14,10 @@ const Cv = () => {
           <div className="circle3"></div>
           <div className="circle4"></div>
         </div>
+        <div className="image">
+          <img src="\static\media\cv.39ffd6a8c8bb9a914e0a.png" alt="" />
+        </div>
       </div>
-      <div className="image"></div>
     </div>
   );
 };

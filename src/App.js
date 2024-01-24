@@ -36,12 +36,14 @@ import Project28 from "./pages/Project28";
 import Project29 from "./pages/Project29";
 import Project30 from "./pages/Project30";
 import Project31 from "./pages/Project31";
+import Summary from "./pages/Summary";
 
 const App = () => {
   return (
     <BrowserRouter id="browserRouter">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/summary" element={<Summary />} />
         <Route path="/projet-1" element={<Project1 />} />
         <Route path="/projet-2" element={<Project2 />} />
         <Route path="/projet-3" element={<Project3 />} />

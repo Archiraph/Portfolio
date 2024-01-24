@@ -20,6 +20,10 @@ body {
   color: #ebebeb;
 }
 
+.navlink {
+  color: #ebebeb;
+  text-decoration: none;
+}
 .navlink:visited {
   color: #ebebeb;
 }
@@ -562,6 +566,9 @@ li {
 .project .hoverProject #code-box h2 {
   margin-right: 0.5vw;
 }
+.project .hoverProject #code-box h2::before {
+  color: #ebebeb;
+}
 .project .hoverProject #site-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1044,17 +1051,28 @@ li {
   z-index: -1;
 }
 #cv-global .image {
-  background-image: url("../img/cv.png");
-  height: 96vh;
+  height: 92vh;
   width: 35vw;
-  background-repeat: no-repeat;
-  background-size: cover;
   -webkit-box-shadow: 0 0 2em black;
           box-shadow: 0 0 2em black;
   margin: auto;
-  position: absolute;
-  top: 30vh;
-  left: 33vw;
+  margin-top: 10vh;
+}
+#cv-global .image img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 92vh;
+  width: 35vw;
 }
 
 #contact {
@@ -1228,4 +1246,72 @@ li {
   background-color: rgb(11, 155, 212);
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
+}
+#contact .formMessage {
+  top: -50px;
+}
+
+#summary h1 {
+  color: black;
+  font-family: "font-title", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vh;
+  font-size: 4vh;
+}
+#summary p {
+  color: black;
+  font-family: "font-text", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5vh;
+  font-size: 2vh;
+}
+#summary #sumContent {
+  color: black;
+  display: grid;
+  grid-template-areas: "sass js" "react js" "redux js";
+  text-align: center;
+  margin-top: 5vh;
+}
+#summary #sumContent h2 {
+  font-family: "font-title", sans-serif;
+  margin-bottom: 2vh;
+  text-decoration: underline;
+  font-size: 3vh;
+}
+#summary #sumContent li {
+  color: black;
+  font-family: "font-text", sans-serif;
+  font-size: 2vh;
+}
+#summary #sumContent li:hover {
+  text-decoration: underline;
+}
+#summary #sumContent #SumSass {
+  grid-area: sass;
+}
+#summary #sumContent #SumJs {
+  grid-area: js;
+  border-left: 1px solid black;
+}
+#summary #sumContent #SumReact {
+  grid-area: react;
+}
+#summary #sumContent #SumRedux {
+  grid-area: redux;
 }/*# sourceMappingURL=index.css.map */

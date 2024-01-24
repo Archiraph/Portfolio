@@ -62,7 +62,7 @@ const Nav = () => {
           onMouseLeave={toggleDropdown}
         >
           <NavLink
-            to="/projet-1"
+            to="/summary"
             className="navlink2"
             style={{ textDecoration: "none" }}
           >
@@ -70,6 +70,11 @@ const Nav = () => {
           </NavLink>
           {isDropdownOpen && (
             <ul id="dropdown">
+              <li className="navlink2">
+                <NavLink to="/summary" className="navlink2">
+                  <li>Sommaire</li>
+                </NavLink>
+              </li>
               <li
                 className="navlink2"
                 onMouseEnter={toggleDropdown2}
@@ -80,7 +85,7 @@ const Nav = () => {
                   {isDropdownOpen2 && (
                     <ul className="dropdown2">
                       <NavLink to="/projet-1" className="navlink3">
-                        <li>Site vitrine</li>
+                        <li>Showcase Website</li>
                       </NavLink>
                       <NavLink to="/projet-2" className="navlink3">
                         <li>Restaurant</li>
@@ -99,7 +104,7 @@ const Nav = () => {
                   {isDropdownOpen3 && (
                     <ul className="dropdown2">
                       <NavLink to="/projet-3" className="navlink3">
-                        <li>Générateur de bulles</li>
+                        <li>Bubble Generator</li>
                       </NavLink>
                       <NavLink to="/projet-4" className="navlink3">
                         <li>Mouse Effect</li>
@@ -111,16 +116,16 @@ const Nav = () => {
                         <li>Scroll Popup</li>
                       </NavLink>
                       <NavLink to="/projet-7" className="navlink3">
-                        <li>Sidebar animée</li>
+                        <li>Animated Sidebar</li>
                       </NavLink>
                       <NavLink to="/projet-8" className="navlink3">
-                        <li>Texte animé</li>
+                        <li>Animated Text</li>
                       </NavLink>
                       <NavLink to="/projet-9" className="navlink3">
-                        <li>Générateur de MDP</li>
+                        <li>Password Generator</li>
                       </NavLink>
                       <NavLink to="/projet-10" className="navlink3">
-                        <li>Formulaire</li>
+                        <li>Form</li>
                       </NavLink>
                       <NavLink to="/projet-11" className="navlink3">
                         <li>Color Generator</li>
@@ -129,22 +134,22 @@ const Nav = () => {
                         <li>To Do List</li>
                       </NavLink>
                       <NavLink to="/projet-13" className="navlink3">
-                        <li>Compte à rebours</li>
+                        <li>Timer</li>
                       </NavLink>
                       <NavLink to="/projet-14" className="navlink3">
-                        <li>Calculateur de dates</li>
+                        <li>Date Calculator</li>
                       </NavLink>
                       <NavLink to="/projet-15" className="navlink3">
-                        <li>Générateur de blagues</li>
+                        <li>Joke App</li>
                       </NavLink>
                       <NavLink to="/projet-16" className="navlink3">
                         <li>User List App</li>
                       </NavLink>
                       <NavLink to="/projet-17" className="navlink3">
-                        <li>Site de recettes</li>
+                        <li>Cooking JS</li>
                       </NavLink>
                       <NavLink to="/projet-18" className="navlink3">
-                        <li>Country App</li>
+                        <li>Country JS</li>
                       </NavLink>
                       <NavLink to="/projet-19" className="navlink3">
                         <li>Yoga Routine</li>
@@ -188,7 +193,7 @@ const Nav = () => {
                         <li>Portfolio React</li>
                       </NavLink>
                       <NavLink to="/projet-28" className="navlink3">
-                        <li>Crypto Watch</li>
+                        <li>Crypto App</li>
                       </NavLink>
                     </ul>
                   )}
@@ -211,7 +216,7 @@ const Nav = () => {
                         <li>NFT Gallery</li>
                       </NavLink>
                       <NavLink to="/projet-31" className="navlink3">
-                        <li>Site Fullstack</li>
+                        <li>Fullstack App</li>
                       </NavLink>
                     </ul>
                   )}

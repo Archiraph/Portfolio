@@ -54,14 +54,18 @@
 
 }
 .image{
-            background-image: url("../img/cv.png");
-            height: 96vh;
-            width: 35vw;
+    
+    img{
+            @include childCenter;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-size: contain;
+            background-position: center;
+            height: 92vh;
+            width: 35vw;
+        } 
+            height: 92vh;
+            width: 35vw;
             box-shadow: 0 0 2em black;
             margin: auto;
-            position: absolute;
-            top: 30vh;
-            left: 33vw;
+            margin-top: 10vh;
         }}
