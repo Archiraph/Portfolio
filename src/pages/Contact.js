@@ -67,7 +67,7 @@ const Contact = () => {
       <div id="content-contact">
         <div id="infos-contact">
           <NavLink
-            to="https://portfolio-lac-psi-91.vercel.app"
+            to="https://raphaelmortiers.com"
             target="_blank"
             className="navLi"
           >
