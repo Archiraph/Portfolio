@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import cv from "../assets/img/cv.png";
 
 const Cv = () => {
   return (
@@ -15,7 +16,7 @@ const Cv = () => {
           <div className="circle4"></div>
         </div>
         <div className="image">
-          <img src="static\media\cv.39ffd6a8c8bb9a914e0a.png" alt="" />
+          <img alt="" src={cv} />
         </div>
       </div>
     </div>

@@ -210,7 +210,7 @@ const Home = () => {
             0471 86 93 59
           </li>
           <NavLink
-            to="https://portfolio-lac-psi-91.vercel.app"
+            to="https://raphaelmortiers.com"
             target="_blank"
             className="navLi"
           >
