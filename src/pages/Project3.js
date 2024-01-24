@@ -123,7 +123,7 @@ const Project3 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Générateur de bulles</h1>
+          <h1>Bubble Generator</h1>
         </div>
         <motion.div
           variants={animLanguages}

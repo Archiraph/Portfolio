@@ -119,7 +119,7 @@ const Project31 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Site FullStack</h1>
+          <h1>FullStack App</h1>
         </div>
         <motion.div
           variants={animLanguages}

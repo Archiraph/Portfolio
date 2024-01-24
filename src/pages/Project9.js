@@ -123,7 +123,7 @@ const Project9 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Générateur de MDP</h1>
+          <h1>Password Generator</h1>
         </div>
         <motion.div
           variants={animLanguages}

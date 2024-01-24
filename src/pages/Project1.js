@@ -119,7 +119,7 @@ const Project1 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Site vitrine SASS</h1>
+          <h1>Showcase Website</h1>
         </div>
         <motion.div
           variants={animLanguages}

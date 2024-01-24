@@ -123,7 +123,7 @@ const Project17 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Site de recettes</h1>
+          <h1>Cooking JS</h1>
         </div>
         <motion.div
           variants={animLanguages}

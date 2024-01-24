@@ -123,7 +123,7 @@ const Project7 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Sidebar animée</h1>
+          <h1>Animated Sidebar</h1>
         </div>
         <motion.div
           variants={animLanguages}

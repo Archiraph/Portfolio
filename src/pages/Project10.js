@@ -123,7 +123,7 @@ const Project10 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Formulaire</h1>
+          <h1>Form</h1>
         </div>
         <motion.div
           variants={animLanguages}

@@ -123,7 +123,7 @@ const Project14 = () => {
           >
             <div className="title-cache"></div>
           </motion.div>
-          <h1>Calculateur de dates</h1>
+          <h1>Date Calculator</h1>
         </div>
         <motion.div
           variants={animLanguages}
