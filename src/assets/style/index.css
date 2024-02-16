@@ -19,6 +19,11 @@ body {
   min-height: 100vh;
   color: #ebebeb;
 }
+@media screen and (max-width: 1035px) {
+  body {
+    min-height: auto;
+  }
+}
 
 .navlink {
   color: #ebebeb;
@@ -83,6 +88,11 @@ li {
           transform: scale(1.2);
   font-weight: 900;
 }
+@media screen and (max-width: 1035px) {
+  #navigation #navbar #dropdown .navlink2 {
+    display: none;
+  }
+}
 #navigation #navbar .navlink {
   margin: 5px;
   width: 7vw;
@@ -130,6 +140,18 @@ li {
 #navigation #navbar .navlink:hover::after {
   width: 68%;
 }
+@media screen and (max-width: 1035px) {
+  #navigation #navbar .navlink {
+    font-size: 1vh;
+    letter-spacing: 0;
+    width: 10vw;
+  }
+}
+@media screen and (max-width: 1035px) {
+  #navigation #navbar {
+    width: 60%;
+  }
+}
 #navigation #logo-container {
   width: 20%;
   display: -webkit-box;
@@ -145,6 +167,11 @@ li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+@media screen and (max-width: 1035px) {
+  #navigation #logo-container {
+    display: none;
+  }
 }
 #navigation #reseauxNav {
   width: 40%;
@@ -167,10 +194,20 @@ li {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (max-width: 1035px) {
+  #navigation #reseauxNav li {
+    margin: 5px;
+  }
+}
 #navigation #reseauxNav li svg {
   height: 3vh;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+@media screen and (max-width: 1035px) {
+  #navigation #reseauxNav li svg {
+    height: 2vh;
+  }
 }
 #navigation #reseauxNav li svg:hover {
   -webkit-transform: scale(1.3);
@@ -333,6 +370,12 @@ li {
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
 }
+@media screen and (max-width: 1035px) {
+  #popup {
+    display: none;
+    right: 10000px;
+  }
+}
 
 .project {
   position: relative;
@@ -449,6 +492,27 @@ li {
   margin-top: 5px;
   font-size: 3vh;
 }
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-title h1 {
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-title {
+    width: 35vw;
+    left: 33%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-bottom: 1vh;
+  }
+}
 .project .project-container .project-languages {
   background-color: rgb(11, 155, 212);
   height: 30vh;
@@ -475,6 +539,19 @@ li {
   font-family: "font-text", sans-serif;
   margin: 8px;
   font-size: 3vh;
+}
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-languages ul li {
+    font-size: 1.5vh;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-languages {
+    width: 25vw;
+    margin-left: 35%;
+    margin-top: 35%;
+    height: 20vh;
+  }
 }
 .project .project-container .project-description {
   display: -webkit-box;
@@ -504,11 +581,27 @@ li {
   margin-left: 12px;
   font-size: 2vh;
 }
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-description p {
+    font-size: 1vh;
+  }
+}
+@media screen and (max-width: 1035px) {
+  .project .project-container .project-description {
+    height: 20vh;
+    width: 25vw;
+  }
+}
 .project .project-container #code-box {
   display: none;
 }
 .project .project-container #site-box {
   display: none;
+}
+@media screen and (max-width: 1035px) {
+  .project .project-container {
+    width: 65vw;
+  }
 }
 .project .hoverProject {
   height: 50vh;
@@ -569,6 +662,13 @@ li {
 .project .hoverProject #code-box h2::before {
   color: #ebebeb;
 }
+@media screen and (max-width: 1035px) {
+  .project .hoverProject #code-box {
+    width: 25vw;
+    left: 20%;
+    font-size: 1vh;
+  }
+}
 .project .hoverProject #site-box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -601,6 +701,12 @@ li {
 .project .hoverProject #site-box h2 {
   margin-right: 0.5vw;
 }
+@media screen and (max-width: 1035px) {
+  .project .hoverProject #site-box {
+    width: 25vw;
+    font-size: 1vh;
+  }
+}
 .project .hoverProject .circle1 {
   position: absolute;
   border: 5px solid rgba(0, 47, 74, 0.368627451);
@@ -630,6 +736,11 @@ li {
   top: 10%;
   left: 3%;
   z-index: -1;
+}
+@media screen and (max-width: 1035px) {
+  .project .hoverProject {
+    width: 80vw;
+  }
 }
 .project #project1-pic {
   background-image: url("../img/Projet1.png");
@@ -877,6 +988,13 @@ li {
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
 }
+@media screen and (max-width: 1035px) {
+  #home #content-home h3 {
+    max-width: 70vw;
+    font-size: 2.5vh;
+    padding-right: 3%;
+  }
+}
 #home #content-home h2 {
   font-family: "font-title", sans-serif;
   background-color: #002f4a;
@@ -898,6 +1016,11 @@ li {
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
 }
+@media screen and (max-width: 1035px) {
+  #home #content-home h2 {
+    margin-left: 5%;
+  }
+}
 #home #content-home #first-text {
   padding: 3%;
   font-family: "font-text", sans-serif;
@@ -911,6 +1034,12 @@ li {
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
 }
+@media screen and (max-width: 1035px) {
+  #home #content-home #first-text {
+    max-width: 50vw;
+    font-size: 1vh;
+  }
+}
 #home #content-home #second-text {
   padding: 3%;
   font-family: "font-text", sans-serif;
@@ -922,6 +1051,13 @@ li {
   border-radius: 10px;
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
+}
+@media screen and (max-width: 1035px) {
+  #home #content-home #second-text {
+    max-width: 50vw;
+    font-size: 1vh;
+    margin-top: 5%;
+  }
 }
 #home #content-home .circle1 {
   position: absolute;
@@ -963,6 +1099,11 @@ li {
   left: 100%;
   z-index: -1;
 }
+@media screen and (max-width: 1035px) {
+  #home #content-home {
+    width: 100vw;
+  }
+}
 #home footer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -975,7 +1116,7 @@ li {
           align-items: center;
   background-color: #002f4a;
   width: 50vw;
-  height: 5vh;
+  height: 6vh;
   border-top-right-radius: 15px;
   font-family: "font-text", sans-serif;
   font-size: 1.5vh;
@@ -1006,7 +1147,18 @@ li {
   text-align: center;
   margin-right: 6px;
 }
+@media screen and (max-width: 1035px) {
+  #home footer {
+    width: 100vw;
+    border-top-right-radius: 0px;
+    font-size: 0.7vh;
+  }
+}
 
+#cv-global {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
 #cv-global #cv-container {
   height: 100vh;
   margin-bottom: 300px;
@@ -1075,6 +1227,28 @@ li {
   height: 92vh;
   width: 35vw;
 }
+@media screen and (max-width: 635px) {
+  #cv-global .image img {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 1035px) {
+  #cv-global .image img {
+    width: 65vw;
+  }
+}
+@media screen and (max-width: 635px) {
+  #cv-global .image {
+    width: 80vw;
+    height: 70vh;
+  }
+}
+@media screen and (max-width: 1035px) {
+  #cv-global .image {
+    width: 65vw;
+  }
+}
 
 #contact {
   overflow: hidden;
@@ -1132,6 +1306,11 @@ li {
 }
 #contact #head-contact p {
   font-family: "font-text", sans-serif;
+}
+@media screen and (max-width: 1035px) {
+  #contact #head-contact {
+    width: 100vw;
+  }
 }
 #contact #content-contact {
   background-color: #002f4a;
@@ -1220,11 +1399,21 @@ li {
   height: 3vh;
   width: 15vw;
 }
+@media screen and (max-width: 1035px) {
+  #contact #content-contact .form-content div #email {
+    width: 100%;
+  }
+}
 #contact #content-contact .form-content div #mess {
   min-height: 20vh;
   max-height: 25vh;
   min-width: 25vw;
   max-width: 31vw;
+}
+@media screen and (max-width: 1035px) {
+  #contact #content-contact .form-content div #mess {
+    max-width: 100%;
+  }
 }
 #contact #content-contact .form-content #button {
   margin: auto;
@@ -1247,6 +1436,17 @@ li {
   background-color: rgb(11, 155, 212);
   -webkit-box-shadow: 0 0 1em black;
           box-shadow: 0 0 1em black;
+}
+@media screen and (max-width: 1035px) {
+  #contact #content-contact .form-content #button {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1035px) {
+  #contact #content-contact {
+    width: 85vw;
+    font-size: 1vh;
+  }
 }
 #contact .formMessage {
   top: -50px;

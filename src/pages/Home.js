@@ -21,6 +21,8 @@ const Home = () => {
       });
   };
 
+  const isSmallScreen = window.innerWidth < 768;
+
   const animTextLeft = {
     initial: {
       opacity: 0,

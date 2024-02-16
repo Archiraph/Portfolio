@@ -21,7 +21,15 @@
                 @include childCenter;
                 letter-spacing: 2px;
                 box-shadow: 0 0 1em black;
+
+                @media screen and (max-width: 1035px) {
+                    max-width: 70vw;
+                    font-size: 2.5vh;
+                    padding-right: 3%;
+                }
             }
+
+            
             
             h2{
                 font-family: $font-title;
@@ -34,6 +42,10 @@
                 max-height: 8vh;
                 border-radius: 10px;
                 box-shadow: 0 0 1em black;
+
+                @media screen and (max-width: 1035px) {
+                    margin-left: 5%;
+                }
             }
 
             #first-text{
@@ -47,6 +59,12 @@
                 z-index: 0;
                 border-radius: 10px;
                 box-shadow: 0 0 1em black;
+
+                @media screen and (max-width: 1035px) {
+                    max-width: 50vw;
+                    font-size: 1vh;
+                }
+
             }
             #second-text{
                 padding: 3%;
@@ -58,6 +76,13 @@
                 font-size: 1.6vh;
                 border-radius: 10px;
                 box-shadow: 0 0 1em black;
+
+                @media screen and (max-width: 1035px) {
+                    max-width: 50vw;
+                    font-size: 1vh;
+                    margin-top: 5%;
+                }
+
             }
 
             .circle1{
@@ -103,13 +128,17 @@
                 left: 100%;
                 z-index: -1;
             }
+
+            @media screen and (max-width: 1035px) {
+                width: 100vw;
+            }
         }
 
         footer{
             @include childCenter;
             background-color: $blue;
             width: 50vw;
-            height: 5vh;
+            height: 6vh;
             border-top-right-radius: 15px;
             font-family: $font-text;
             font-size: 1.5vh;
@@ -133,6 +162,11 @@
                 text-align: center;
                 margin-right: 6px;
                 }
+            }
+            @media screen and (max-width: 1035px) {
+                width: 100vw;
+                border-top-right-radius: 0px;
+                font-size: 0.7vh;
             }
         }
 }

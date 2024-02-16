@@ -105,6 +105,17 @@
                 font-family: $font-title;
                 margin-top: 5px;
                 font-size: 3vh;
+
+                @media screen and (max-width: 1035px) {
+                    font-size: 1.5vh;
+                }
+            }
+
+            @media screen and (max-width: 1035px) {
+                width: 35vw;
+                left: 33%;
+                @include childCenter;
+                padding-bottom: 1vh;
             }
         }
 
@@ -123,7 +134,17 @@
                     font-family: $font-text;
                     margin: 8px;
                     font-size: 3vh;
+
+                    @media screen and (max-width: 1035px) {
+                        font-size: 1.5vh;
+                    }
                 }
+            }
+            @media screen and (max-width: 1035px) {
+                width: 25vw;
+                margin-left: 35%;
+                margin-top: 35%;
+                height: 20vh;
             }
         }
 
@@ -142,6 +163,14 @@
                 margin: 8px;
                 margin-left: 12px;
                 font-size: 2vh;
+
+                @media screen and (max-width: 1035px) {
+                    font-size: 1vh;
+                }
+            }
+            @media screen and (max-width: 1035px) {
+                height: 20vh;
+                width: 25vw;
             }
         }
 
@@ -151,6 +180,10 @@
 
         #site-box{
             display: none;
+        }
+
+        @media screen and (max-width: 1035px) {
+            width: 65vw;
         }
     }
 
@@ -206,6 +239,12 @@
                     color: $white;
                 }
             }
+
+            @media screen and (max-width: 1035px) {
+                width: 25vw;
+                left: 20%;
+                font-size: 1vh;
+            }
         }
 
         #site-box{
@@ -229,6 +268,10 @@
 
             h2{
                 margin-right: 0.5vw;
+            }
+            @media screen and (max-width: 1035px) {
+                width: 25vw;
+                font-size: 1vh;
             }
         }
 
@@ -264,7 +307,9 @@
                 left: 3%;
                 z-index: -1;
             }
-        
+            @media screen and (max-width: 1035px) {
+                width: 80vw;
+            }
     }
 
     #project1-pic{
@@ -421,4 +466,5 @@
         background-image: url("../img/Projet31.png");
         @include background;
     }
+    
 }

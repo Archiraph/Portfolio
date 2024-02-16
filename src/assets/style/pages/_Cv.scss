@@ -1,8 +1,12 @@
 #cv-global{
+    max-width: 100vw;
+    overflow-x: hidden;
+
     #cv-container{
 
     height: 100vh;
     margin-bottom: 300px;
+    
     
     #Cv{
 
@@ -50,7 +54,6 @@
             z-index: -1;
         }  
     }
-        
 
 }
 .image{
@@ -62,10 +65,28 @@
             background-position: center;
             height: 92vh;
             width: 35vw;
+
+            @media screen and (max-width: 635px) {
+                width: 80vw;
+                height: 70vh;
+            }
+
+            @media screen and (max-width: 1035px) {
+                width: 65vw;
+            }
         } 
             height: 92vh;
             width: 35vw;
             box-shadow: 0 0 2em black;
             margin: auto;
             margin-top: 10vh;
+
+            @media screen and (max-width: 635px) {
+                width: 80vw;
+                height: 70vh;
+            }
+
+            @media screen and (max-width: 1035px) {
+                width: 65vw;
+            }
         }}

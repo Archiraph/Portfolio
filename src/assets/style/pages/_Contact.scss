@@ -48,6 +48,10 @@
         p{
             font-family: $font-text;
         }
+
+        @media screen and (max-width: 1035px) {
+            width: 100vw;
+        }
     }
     #content-contact{
         background-color: $blue;
@@ -108,6 +112,8 @@
                     border-radius: 10px;
                     border: 1px solid $blue2;
                     padding: 5px;
+
+                    
                 }
 
                 label{
@@ -117,6 +123,10 @@
                 #email{
                     height: 3vh;
                     width: 15vw;
+
+                    @media screen and (max-width: 1035px) {
+                        width: 100%;
+                    }
                 }
 
                 #mess{
@@ -124,6 +134,10 @@
                     max-height: 25vh;
                     min-width: 25vw;
                     max-width: 31vw;
+
+                    @media screen and (max-width: 1035px) {
+                        max-width: 100%;
+                    }
                 }
             }
 
@@ -146,7 +160,15 @@
                     background-color: $lightblue;
                     box-shadow: 0 0 1em black;
                 }
+
+                @media screen and (max-width: 1035px) {
+                    width: 60%;
+                }
             }
+        }
+        @media screen and (max-width: 1035px) {
+            width: 85vw;
+            font-size: 1vh;
         }
     }
     .formMessage{

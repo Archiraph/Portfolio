@@ -29,6 +29,9 @@ body{
     overflow-x: hidden;
     min-height: 100vh;
     color: $white;
+    @media screen and (max-width: 1035px) {
+        min-height: auto;
+    }
 }
 
 .navlink{
@@ -64,4 +67,6 @@ li{
         background-repeat: no-repeat;
         background-position: center;
 }
+
+
 

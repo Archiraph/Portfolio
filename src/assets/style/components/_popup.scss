@@ -89,4 +89,8 @@
             box-shadow: 0 0 1em black;
         }
     }
+    @media screen and (max-width: 1035px) {
+        display: none;
+        right: 10000px;
+    }
 }
